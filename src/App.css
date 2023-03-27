@@ -23,6 +23,51 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content:center ;  
+  position: relative;
+
+
+}
+table{
+  margin-top: 1rem;
+  width: 70vw;
+  min-height: 100vh;
+
+
+}
+table,thead,td{
+  border: 1px solid ;
+  border-collapse: collapse;
+}
+td{
+  width: 33%;
+}
+
+.main{
+}
+.popup{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-height: 250px;
+  align-items: center;
+  border: 1px solid ;
+  top: 0;
+  left: 0;
+  transform: translate(100%,50%);
+}
+button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
 
 .App-link {
   color: #61dafb;
