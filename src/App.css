@@ -42,24 +42,34 @@ table{
 table,thead,td{
   border: 1px solid ;
   border-collapse: collapse;
+  cursor: pointer;
 }
 td{
   width: 33%;
 }
-
-.main{
+thead{
+  background-color: #282c34;
+  color: #fff;
 }
+
+tbody tr:nth-child(2n+1){
+  background-color:#edd399;
+}
+
+
 .popup{
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width:400 px;
   min-height: 250px;
   align-items: center;
   border: 1px solid ;
   top: 0;
-  left: 0;
-  transform: translate(100%,50%);
+  left: 50;
+  transform: translate(50%,60%);
+  background-color: #fff;
+  color: #111;
 }
 button{
   position: absolute;
